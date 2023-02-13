@@ -1,0 +1,27 @@
+GET http://127.0.0.1:3000/api/members/1
+
+###
+POST http://127.0.0.1:3000/api/members
+Content-Type: application/json
+
+{
+  "name": "Messi",
+  "team": "development",
+  "position": "Server Developer",
+  "emailAddress": "choiramsey@google.com",
+  "phoneNumber": "010-xxxx-xxxx",
+  "admissionDate": "2023/02/10",
+  "birthday": "1988/11/06",
+  "profileImage": "profile1.png"
+}
+
+###
+PUT http://127.0.0.1:3000/api/members/11111
+Content-Type: application/json
+
+{
+  "name": "Richalison"
+}
+
+###
+DELETE http://127.0.0.1:3000/api/members/1
