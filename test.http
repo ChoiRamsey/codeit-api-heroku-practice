@@ -1,13 +1,13 @@
-GET http://127.0.0.1:3000/api/members/1
+GET https://codeit-api-practice.herokuapp.com/api/members
 
 ###
-POST http://127.0.0.1:3000/api/members
+POST https://codeit-api-practice.herokuapp.com/api/members
 Content-Type: application/json
 
 {
   "name": "Messi",
   "team": "development",
-  "position": "Server Developer",
+  "position": "IOS Developer",
   "emailAddress": "choiramsey@google.com",
   "phoneNumber": "010-xxxx-xxxx",
   "admissionDate": "2023/02/10",
@@ -16,7 +16,7 @@ Content-Type: application/json
 }
 
 ###
-PUT http://127.0.0.1:3000/api/members/11111
+PUT https://codeit-api-practice.herokuapp.com/api/members/11111
 Content-Type: application/json
 
 {
@@ -24,4 +24,4 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://127.0.0.1:3000/api/members/1
+DELETE https://codeit-api-practice.herokuapp.com/api/members/14
